@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDF4C8081C1B043300494BA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF4C8071C1B043300494BA3 /* main.m */; };
+		EDF4C80B1C1B043300494BA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF4C80A1C1B043300494BA3 /* AppDelegate.m */; };
+		EDF4C80E1C1B043300494BA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF4C80D1C1B043300494BA3 /* ViewController.m */; };
+		EDF4C8131C1B043300494BA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF4C8121C1B043300494BA3 /* Assets.xcassets */; };
+		EDF4C8161C1B043300494BA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF4C8141C1B043300494BA3 /* LaunchScreen.storyboard */; };
+		EDF4C8201C1C551C00494BA3 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF4C81F1C1C551C00494BA3 /* BaseController.m */; };
+		EDF4C8231C1C564900494BA3 /* Base1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF4C8221C1C564900494BA3 /* Base1Controller.m */; };
+		EDF4C8261C1C59ED00494BA3 /* Base2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF4C8251C1C59ED00494BA3 /* Base2Controller.m */; };
+		EDF4C8291C1C5CF300494BA3 /* MMView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF4C8281C1C5CF300494BA3 /* MMView.m */; };
+		EDF4C82C1C1C5E2000494BA3 /* MMLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF4C82B1C1C5E2000494BA3 /* MMLabel.m */; };
+		EDF4C82F1C1C619100494BA3 /* Base3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF4C82E1C1C619100494BA3 /* Base3Controller.m */; };
+		EDF4C8321C1C674400494BA3 /* Base4Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF4C8311C1C674400494BA3 /* Base4Controller.m */; };
+		EDF4C8351C1C6A7E00494BA3 /* Base5Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF4C8341C1C6A7E00494BA3 /* Base5Controller.m */; };
+		F848648F4A8D9BA4D7987E43 /* libPods-DemoMasonryPlus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FED6351B69742267695096AB /* libPods-DemoMasonryPlus.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9126E84D3F0E745975DCAB6E /* Pods-DemoMasonryPlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoMasonryPlus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoMasonryPlus/Pods-DemoMasonryPlus.debug.xcconfig"; sourceTree = "<group>"; };
+		E02E788648B10162766A8CE4 /* Pods-DemoMasonryPlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoMasonryPlus.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoMasonryPlus/Pods-DemoMasonryPlus.release.xcconfig"; sourceTree = "<group>"; };
+		EDF4C8031C1B043300494BA3 /* DemoMasonryPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoMasonryPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF4C8071C1B043300494BA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDF4C8091C1B043300494BA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDF4C80A1C1B043300494BA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDF4C80C1C1B043300494BA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDF4C80D1C1B043300494BA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDF4C8121C1B043300494BA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDF4C8151C1B043300494BA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDF4C8171C1B043300494BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF4C81E1C1C551C00494BA3 /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		EDF4C81F1C1C551C00494BA3 /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		EDF4C8211C1C564900494BA3 /* Base1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base1Controller.h; sourceTree = "<group>"; };
+		EDF4C8221C1C564900494BA3 /* Base1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base1Controller.m; sourceTree = "<group>"; };
+		EDF4C8241C1C59ED00494BA3 /* Base2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base2Controller.h; sourceTree = "<group>"; };
+		EDF4C8251C1C59ED00494BA3 /* Base2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base2Controller.m; sourceTree = "<group>"; };
+		EDF4C8271C1C5CF300494BA3 /* MMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMView.h; sourceTree = "<group>"; };
+		EDF4C8281C1C5CF300494BA3 /* MMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMView.m; sourceTree = "<group>"; };
+		EDF4C82A1C1C5E2000494BA3 /* MMLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMLabel.h; sourceTree = "<group>"; };
+		EDF4C82B1C1C5E2000494BA3 /* MMLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLabel.m; sourceTree = "<group>"; };
+		EDF4C82D1C1C619100494BA3 /* Base3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base3Controller.h; sourceTree = "<group>"; };
+		EDF4C82E1C1C619100494BA3 /* Base3Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base3Controller.m; sourceTree = "<group>"; };
+		EDF4C8301C1C674400494BA3 /* Base4Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base4Controller.h; sourceTree = "<group>"; };
+		EDF4C8311C1C674400494BA3 /* Base4Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base4Controller.m; sourceTree = "<group>"; };
+		EDF4C8331C1C6A7E00494BA3 /* Base5Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base5Controller.h; sourceTree = "<group>"; };
+		EDF4C8341C1C6A7E00494BA3 /* Base5Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base5Controller.m; sourceTree = "<group>"; };
+		FED6351B69742267695096AB /* libPods-DemoMasonryPlus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoMasonryPlus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDF4C8001C1B043300494BA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F848648F4A8D9BA4D7987E43 /* libPods-DemoMasonryPlus.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F03EA96C63AFF4DC18F9A7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FED6351B69742267695096AB /* libPods-DemoMasonryPlus.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B70257CE904B17A06C92DC0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9126E84D3F0E745975DCAB6E /* Pods-DemoMasonryPlus.debug.xcconfig */,
+				E02E788648B10162766A8CE4 /* Pods-DemoMasonryPlus.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDF4C7FA1C1B043300494BA3 = {
+			isa = PBXGroup;
+			children = (
+				EDF4C8051C1B043300494BA3 /* DemoMasonryPlus */,
+				EDF4C8041C1B043300494BA3 /* Products */,
+				B70257CE904B17A06C92DC0D /* Pods */,
+				8F03EA96C63AFF4DC18F9A7E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDF4C8041C1B043300494BA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF4C8031C1B043300494BA3 /* DemoMasonryPlus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDF4C8051C1B043300494BA3 /* DemoMasonryPlus */ = {
+			isa = PBXGroup;
+			children = (
+				EDF4C81D1C1C550A00494BA3 /* Example */,
+				EDF4C8091C1B043300494BA3 /* AppDelegate.h */,
+				EDF4C80A1C1B043300494BA3 /* AppDelegate.m */,
+				EDF4C80C1C1B043300494BA3 /* ViewController.h */,
+				EDF4C80D1C1B043300494BA3 /* ViewController.m */,
+				EDF4C8121C1B043300494BA3 /* Assets.xcassets */,
+				EDF4C8141C1B043300494BA3 /* LaunchScreen.storyboard */,
+				EDF4C8171C1B043300494BA3 /* Info.plist */,
+				EDF4C8061C1B043300494BA3 /* Supporting Files */,
+			);
+			path = DemoMasonryPlus;
+			sourceTree = "<group>";
+		};
+		EDF4C8061C1B043300494BA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDF4C8071C1B043300494BA3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDF4C81D1C1C550A00494BA3 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				EDF4C81E1C1C551C00494BA3 /* BaseController.h */,
+				EDF4C81F1C1C551C00494BA3 /* BaseController.m */,
+				EDF4C8211C1C564900494BA3 /* Base1Controller.h */,
+				EDF4C8221C1C564900494BA3 /* Base1Controller.m */,
+				EDF4C8241C1C59ED00494BA3 /* Base2Controller.h */,
+				EDF4C8251C1C59ED00494BA3 /* Base2Controller.m */,
+				EDF4C8271C1C5CF300494BA3 /* MMView.h */,
+				EDF4C8281C1C5CF300494BA3 /* MMView.m */,
+				EDF4C82A1C1C5E2000494BA3 /* MMLabel.h */,
+				EDF4C82B1C1C5E2000494BA3 /* MMLabel.m */,
+				EDF4C82D1C1C619100494BA3 /* Base3Controller.h */,
+				EDF4C82E1C1C619100494BA3 /* Base3Controller.m */,
+				EDF4C8301C1C674400494BA3 /* Base4Controller.h */,
+				EDF4C8311C1C674400494BA3 /* Base4Controller.m */,
+				EDF4C8331C1C6A7E00494BA3 /* Base5Controller.h */,
+				EDF4C8341C1C6A7E00494BA3 /* Base5Controller.m */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDF4C8021C1B043300494BA3 /* DemoMasonryPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF4C81A1C1B043300494BA3 /* Build configuration list for PBXNativeTarget "DemoMasonryPlus" */;
+			buildPhases = (
+				AC533EB6442249D850E018E4 /* Check Pods Manifest.lock */,
+				EDF4C7FF1C1B043300494BA3 /* Sources */,
+				EDF4C8001C1B043300494BA3 /* Frameworks */,
+				EDF4C8011C1B043300494BA3 /* Resources */,
+				6C47D7A0FD7340D6A02966F7 /* Embed Pods Frameworks */,
+				68F87031E770F8E8A561953B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoMasonryPlus;
+			productName = DemoMasonryPlus;
+			productReference = EDF4C8031C1B043300494BA3 /* DemoMasonryPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF4C7FB1C1B043300494BA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = LJC;
+				TargetAttributes = {
+					EDF4C8021C1B043300494BA3 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = EDF4C7FE1C1B043300494BA3 /* Build configuration list for PBXProject "DemoMasonryPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDF4C7FA1C1B043300494BA3;
+			productRefGroup = EDF4C8041C1B043300494BA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF4C8021C1B043300494BA3 /* DemoMasonryPlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDF4C8011C1B043300494BA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF4C8161C1B043300494BA3 /* LaunchScreen.storyboard in Resources */,
+				EDF4C8131C1B043300494BA3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68F87031E770F8E8A561953B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoMasonryPlus/Pods-DemoMasonryPlus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C47D7A0FD7340D6A02966F7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoMasonryPlus/Pods-DemoMasonryPlus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC533EB6442249D850E018E4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDF4C7FF1C1B043300494BA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF4C82F1C1C619100494BA3 /* Base3Controller.m in Sources */,
+				EDF4C80E1C1B043300494BA3 /* ViewController.m in Sources */,
+				EDF4C80B1C1B043300494BA3 /* AppDelegate.m in Sources */,
+				EDF4C8321C1C674400494BA3 /* Base4Controller.m in Sources */,
+				EDF4C8291C1C5CF300494BA3 /* MMView.m in Sources */,
+				EDF4C8201C1C551C00494BA3 /* BaseController.m in Sources */,
+				EDF4C8261C1C59ED00494BA3 /* Base2Controller.m in Sources */,
+				EDF4C8231C1C564900494BA3 /* Base1Controller.m in Sources */,
+				EDF4C82C1C1C5E2000494BA3 /* MMLabel.m in Sources */,
+				EDF4C8351C1C6A7E00494BA3 /* Base5Controller.m in Sources */,
+				EDF4C8081C1B043300494BA3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDF4C8141C1B043300494BA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF4C8151C1B043300494BA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDF4C8181C1B043300494BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDF4C8191C1B043300494BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDF4C81B1C1B043300494BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9126E84D3F0E745975DCAB6E /* Pods-DemoMasonryPlus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DemoMasonryPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adad184.DemoMasonryPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDF4C81C1C1B043300494BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E02E788648B10162766A8CE4 /* Pods-DemoMasonryPlus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DemoMasonryPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adad184.DemoMasonryPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF4C7FE1C1B043300494BA3 /* Build configuration list for PBXProject "DemoMasonryPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF4C8181C1B043300494BA3 /* Debug */,
+				EDF4C8191C1B043300494BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF4C81A1C1B043300494BA3 /* Build configuration list for PBXNativeTarget "DemoMasonryPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF4C81B1C1B043300494BA3 /* Debug */,
+				EDF4C81C1C1B043300494BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF4C7FB1C1B043300494BA3 /* Project object */;
+}

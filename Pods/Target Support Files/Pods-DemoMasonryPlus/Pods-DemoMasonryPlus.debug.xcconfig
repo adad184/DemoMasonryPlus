@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FDFullscreenPopGesture" "${PODS_ROOT}/Headers/Public/MMPlaceHolder" "${PODS_ROOT}/Headers/Public/MMTweenAnimation" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/pop"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/FDFullscreenPopGesture" -isystem "${PODS_ROOT}/Headers/Public/MMPlaceHolder" -isystem "${PODS_ROOT}/Headers/Public/MMTweenAnimation" -isystem "${PODS_ROOT}/Headers/Public/Masonry" -isystem "${PODS_ROOT}/Headers/Public/pop"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"FDFullscreenPopGesture" -l"MMPlaceHolder" -l"MMTweenAnimation" -l"Masonry" -l"c++" -l"pop" -framework "Foundation" -framework "UIKit"
+PODS_ROOT = ${SRCROOT}/Pods

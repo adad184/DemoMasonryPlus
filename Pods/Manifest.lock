@@ -1,0 +1,23 @@
+PODS:
+  - FDFullscreenPopGesture (1.1)
+  - Masonry (0.6.3)
+  - MMPlaceHolder (1.9)
+  - MMTweenAnimation (1.1):
+    - pop
+  - pop (1.0.8)
+
+DEPENDENCIES:
+  - FDFullscreenPopGesture
+  - Masonry
+  - MMPlaceHolder
+  - MMTweenAnimation
+  - pop
+
+SPEC CHECKSUMS:
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+  MMPlaceHolder: 40212b9dfe8760134b1b2fce3232f0d46200178f
+  MMTweenAnimation: a095d3203731fcb32a9b8039c4776cef0dbd2a58
+  pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
+
+COCOAPODS: 0.39.0
